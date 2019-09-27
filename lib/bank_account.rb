@@ -14,5 +14,7 @@ class BankAccount
     "Your balance is #{@balance}."
   end
   def valid?
-    
+    if @status == "open" && @balance > 1000
+    true
+  end
 end
