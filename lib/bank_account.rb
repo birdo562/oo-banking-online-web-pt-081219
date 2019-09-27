@@ -8,6 +8,7 @@ class BankAccount
     @balance = 1000
   end
   def deposit(amount)
-    @bal
+    @balance += amount
+  end
     
 end
