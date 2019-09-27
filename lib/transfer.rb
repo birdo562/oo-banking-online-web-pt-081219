@@ -16,6 +16,8 @@ class Transfer
        sender.balance -= amount
        receiver.balance += amount
        @status = "complete"
+     else
+       reject_transfer
      end
    end
 end
