@@ -20,4 +20,6 @@ class Transfer
        reject_transfer
      end
    end
+   def reverse_transfer
+     
 end
